@@ -10,7 +10,6 @@ function App() {
 
   const handleNum = (e)=> {
     const selectedNum = e.target.innerText
-    console.log(selectedNum)
     if (num===0){
       setNum(selectedNum)
     }else{
