@@ -78,7 +78,7 @@ function App() {
           <div onClick={handleOperator} className='m-2 w-14 h-14 flex text-white items-center justify-center bg-orange-500 rounded-full'>+</div>
           <div onClick={handleNum} className='m-2 w-14 h-14 flex text-white items-center justify-center bg-gray-500 rounded-full'>0</div>
           <div className='m-2 w-14 h-14 flex text-white items-center justify-center bg-gray-500 rounded-full'></div>
-          <div className='m-2 w-14 h-14 flex text-white items-center justify-center bg-gray-500 rounded-full'>.</div>
+          <div onClick={handleNum} className='m-2 w-14 h-14 flex text-white items-center justify-center bg-gray-500 rounded-full'>.</div>
           <div onClick={calculate} className='m-2 w-14 h-14 flex text-white items-center justify-center bg-orange-500 rounded-full'>=</div>
           <div className='m-2 w-14 h-14 flex text-white items-center justify-center bg-red-500 rounded-full'>(</div>
           <div className='m-2 w-14 h-14 flex text-white items-center justify-center bg-red-500 rounded-full'></div>
